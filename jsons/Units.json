@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Phasers",
+		"name": "Advanced Machine Gun",
 		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Civ 1",
 		"replaces": "Machine Gun",
 		"movement": 2,
 		"strength": 90,
@@ -10,7 +10,7 @@
 		"range": 2,
 		"cost": 500,
 		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"requiredResource": "Iron",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
