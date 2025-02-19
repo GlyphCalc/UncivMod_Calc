@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Holodeck",
+		"name": "Celebration Hall",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Civ 1",
 		"cost": 480,
 		"happiness": 12,
 		"culture": 12,
@@ -13,13 +13,15 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Town Square",
+		"replaces": "Market",
+		"uniqueTo": "Civ 1",
+		"gold": 4
+		"faith": 1
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25}
+		"uniques": ["[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
 	}
 ]
